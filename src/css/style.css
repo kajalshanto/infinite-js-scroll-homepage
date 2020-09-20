@@ -1,0 +1,139 @@
+/*-- Author :Hasibul Hasan Shanto
+	Montd date,2017 ; 0 PM .
+	Email:kajal.shanto@gmail.com; 
+ 
+*/
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	padding: 0;
+	margin: 0;
+	background: #F5F6F7;
+}
+a{
+	text-decoration: none;
+}
+h4{
+	color: #3F7CF7;
+}
+span{
+	color: #A5A5A5;
+}
+
+.fa-thumbs-o-up:hover{
+	color: red;
+	font-size: 18px;
+}
+.fa-comment-o:hover{
+	color: cyan;
+	font-size: 18px;
+}
+.post{
+	padding: 5px;
+	background: #F5F6F7;
+}
+.single_post{
+	border: 1px solid #ccc;
+	width: 82%;
+	margin: 0 auto;
+}
+.border_hr{
+	background: #ccc;
+	width: 80%;
+	height: 2px;
+	margin: 0 auto;
+}
+.post_area{
+	width: 80%; 
+	margin: 0 auto;
+	padding: 15px;
+	overflow: hidden;
+}
+.post_area .user_panel{
+	width: 5%;
+ 	float: left;
+	margin-left: 5px; 
+	
+}
+.user_post_area{
+	width: 92%;
+	float: right; 
+	padding: 10px;
+}
+.coment_box{
+	width: 60%; 
+	margin: 0 auto;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	margin-top: 5px;
+}
+.coments{ 
+	overflow: hidden;
+	padding: 5px;
+}
+.user_panel{
+	width: 5%;
+ 	float: left;
+	margin-left: 15px;
+	
+}
+.user_panel img{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+.user_post_area p{ 
+	text-align: justify;
+}
+
+.right_panel{
+	width: 85%; 
+	border-radius: 20px;
+	float: left;
+	margin-left:  5%;
+	padding: 7px;
+}
+.coments_here{
+	width: 60%;
+	margin: 0 auto;
+	padding: 10px 0;
+	margin-top: 5px; 
+ }
+ .clear{
+ 	clear: both;
+ }
+ 
+.coments_here .input_ct{
+	width: 82%;
+	padding: 10px;
+	border-radius: 10px;
+	border: 1px solid #ccc;
+}
+ 
+.input_ct::focus{
+	border-radius: 10px;
+}
+.btn_cmts{
+	background: coral;
+	padding: 7px 12px;
+	font-size: 18px;
+	border: 1px solid #ccc;
+	color: #fff;
+	border-radius: 10px;
+	transition: .5s;
+
+}
+.btn_cmts:hover{
+	background: blue;
+}
+#pText{
+	text-align: justify;
+	color: red;
+	max-width: 390px;
+}
+
